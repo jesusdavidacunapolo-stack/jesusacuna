@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Jesús Acuña</title>
+
+  <!-- Fuente limpia de Google y Font Awesome para íconos -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO Y NAVEGACIÓN -->
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+      <span>Jesús Acuña</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer" target="_blank">Certificación</a></li>
+        <li><a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Oferta Educativa</a></li>
+        <li><a href="https://www.instagram.com/__acunha/" target="_blank">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER PRINCIPAL -->
+  <section class="banner">
+    <h1>Te formamos para la VIDA</h1>
+    <p>Conoce los programas y oportunidades que tenemos para ti.</p>
+    <a href="https://www.sena.edu.co" target="_blank" class="btn">Inscríbete</a>
+  </section>
+
+  <!-- SECCIÓN DE SERVICIOS -->
+  <main class="servicios">
+    <article class="card">
+      <i class="fa-solid fa-graduation-cap icono"></i>
+      <h2>Programas</h2>
+      <p>Programas técnicos y tecnológicos en gestión empresarial, sistemas, cocina y más.</p>
+      <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Ver más</a>
+    </article>
+
+    <article class="card">
+      <i class="fa-solid fa-award icono"></i>
+      <h2>Competencias Laborales</h2>
+      <p>Certifica tus conocimientos y habilidades en el desarrollo de tus funciones laborales.</p>
+      <a href="https://www.sena.edu.co" target="_blank">Ver más</a>
+    </article>
+
+    <article class="card">
+      <i class="fa-solid fa-rocket icono"></i>
+      <h2>Emprendimiento</h2>
+      <p>Financiamiento de proyectos empresariales a través del Fondo Emprender SENA.</p>
+      <a href="https://www.fondoemprender.com" target="_blank">Ver más</a>
+    </article>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="redes">
+      <a href="https://es-la.facebook.com/SENA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/SENAcomunica" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://www.instagram.com/__acunha/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>© SENA 2026 | Diseñado por Jesús Acuña</p>
+  </footer>
+
+</body>
+</html>
